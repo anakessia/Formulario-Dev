@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#titulo {
+    font-family: sans-serif;
+    color: rgb(236, 235, 235);
+    text-align: center;
+    margin-top: 10px;
+}
+
+fieldset {
+    border: 0;
+}
+
+body {
+    background-color: #10314e;
+    font-family: sans-serif;
+    font-size: 1em;
+    color: #b81639;
+    justify-content: center;
+    background-image: url("https://data.1freewallpapers.com/detail/code-programming-text-technology.jpg");
+    background-size: cover;
+    margin: auto;
+    display: grid;
+}
+
+input, select, textarea, button{
+    border-radius: 5px;
+}
+
+.campo{
+    margin-bottom: 1em;
+}
+
+.campo label{
+    margin-bottom: 0.2em;
+    color: #b81639;
+    display: block;
+}
+
+fieldset.grupo .campo{
+    float: left;
+    margin-right: 1em;
+}
+
+.campo input[type="text"], .campo input[type="email"], .campo select, .campo textarea{
+    padding: 0.2em;
+    border: 1px solid #CDC9C9;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    display: block;
+}
+
+.campo select option{
+    padding-right: 1em;
+
+}
+
+.campo input:focus, .campo select:focus, .campo textarea:focus{
+    background: #ffffff;
+}
+
+.botao{
+    font-size: 1em;
+    background: #b81639;
+    border: 0;
+    margin-bottom: 2em;
+    color: #ffff;
+    padding: 0.2em 0.6em;
+    box-shadow: 2px 2px 2px rgba(12, 11, 11, 0.2);
+    text-shadow: 1px 1px 1px rgba(7, 7, 7, 0.5);
+    position: absolute;
+    top: 95%;
+    left: 49%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+.botao:hover{
+    background: #f38392;
+    box-shadow: inset 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: none;
+
+}
+
+#fundo-branco {
+    background:rgba(255, 255, 255, 0.9);
+    display: inline-block;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#check{
+    display: inline-block;
+}
