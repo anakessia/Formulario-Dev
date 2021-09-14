@@ -1,4 +1,4 @@
-<h1 align="center">Tela do Formulário</h1>
+# Tela do Formulário
 <p align="center">
   <a href="#">
     <img align="center" width="850" src="form.png" />
